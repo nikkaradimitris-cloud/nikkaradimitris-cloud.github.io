@@ -1,0 +1,19 @@
+:root{--bg:#F6F4EE;--card:#FFFFFF;--text:#141821;--dim:#4A5263;--line:#E3DFD3;--gold:#B98420;--goldsoft:#FFF3D6}
+@media (prefers-color-scheme:dark){:root{--bg:#070D1A;--card:#0F1729;--text:#F1F5FB;--dim:#A9B5C8;--line:#22304A;--gold:#F2C14E;--goldsoft:#1E1A0E}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 "Noto Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:28px 16px 64px}
+header{display:flex;align-items:center;gap:12px;margin-bottom:22px}
+.logo{width:44px;height:44px;border-radius:13px;background:linear-gradient(140deg,#FFE7A8,#F2C14E 55%,#D49E2D);display:flex;align-items:center;justify-content:center;flex:none}
+.brand{font-weight:700;font-size:20px}
+h1{font-size:30px;line-height:1.2;margin:8px 0 6px}
+h2{font-size:20px;margin:30px 0 8px}
+h3{font-size:16.5px;margin:18px 0 4px}
+p,li{color:var(--dim)} strong{color:var(--text)}
+ul{padding-left:20px} li{margin:4px 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:16px 18px;margin:14px 0}
+.note{background:var(--goldsoft);border-color:var(--gold)}
+a{color:var(--gold)}
+.meta{font-size:14px;color:var(--dim)}
+nav{display:flex;gap:14px;flex-wrap:wrap;font-size:14.5px;margin-top:40px;padding-top:16px;border-top:1px solid var(--line)}
+.en{margin-top:44px;padding-top:8px;border-top:2px solid var(--line)}
